@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Red+Hat+Display:wght@500&display=swap');
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    background-image: url('images/Screenshot\ 2023-11-06\ 223243.png');
+    background-color: hsl(224, 23%, 55%);
+}
+
+/* img{
+    display: block;
+    width: 100%;
+} */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    font-family: 'Red Hat Display', sans-serif;
+    min-width: 450px;
+    height: auto;
+}
+
+.container {
+    border: 2px solid black;
+    width: 450px;
+    border-radius: 1.15rem;
+    background-color: white;
+}
+
+.image {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1.75rem;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.content {
+    text-align: center;
+    color: gray;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.icon {
+    float: left;
+    padding-right: 0.5rem;
+}
+
+.plan {
+    border: 1px solid transparent;
+    background-color:hsl(225, 100%, 98%);
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+}
+
+.annual {
+    padding-left: 0.25rem;
+    padding-bottom: 2.5rem;
+    font-size: 22px;
+    font-weight: 900;
+
+}
+
+.amount {
+    padding-left: 0.25rem;
+    font-size: 19px;
+    color: rgb(156, 150, 150);
+    font-weight: 500;
+}
+
+.plan-change {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.25rem;
+}
+
+a:hover, a:focus {
+    color: hsl(224, 23%, 55%);
+}
+
+.proceed {
+    display: flex;
+    justify-content: center;
+    border: 1px transparent;
+    color: whitesmoke;
+    background-color: hsl(245, 75%, 52%);
+    padding: 0.75rem;
+    margin: 2rem 2rem 1rem 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.247);
+}
+
+.cancel {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: grey;
+    font-weight: 700;
+}
